@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Word Guess Game</title>
+    <script src="./assets/javascript/game.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+
+
+<body>
+    <div class="jumbotron" align = "center">
+     <header class="main-header">
+            <h1>City Guessing Game</h1>
+            <h2>Guess the City!</h2>
+        </header>
+    </div>
+
+    
+    <div class="container">
+            <div class="top">
+                <p id="pressPlay" class="border border-danger">press any key to start</p>    
+                <p id="answerWord" class="border border-danger"> </p>
+            </div>
+            <div class="middle">
+                <div class="wins" class="border border-danger">
+                    <h4 class="border border-danger"> Wins</h4>
+                    <p id="numWins" class="border border-danger"></p>
+                </div>
+                <div class="losses" class="border border-danger">
+                    <h4 class="border border-danger">Losses</h4>
+                    <p id="numLosses" class="border border-danger"></p>
+                </div>
+            </div>
+            <div class="bottom">
+                <h4 class="border border-danger"><span id="numGuesses"></span> lives remaining</h4>
+                <h4 class="border border-danger">Guessed Letters</h4>
+                <p id="guessedLetters" class="border border-danger"></p>
+            </div>
+        </div>
+    
+    
+
+
+
+    
+    
+</body>
+</html>
+

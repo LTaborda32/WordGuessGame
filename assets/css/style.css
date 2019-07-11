@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+
+p,
+h4 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+p{
+    font-size: 30px;
+}
